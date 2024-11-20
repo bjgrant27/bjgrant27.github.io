@@ -28,9 +28,43 @@ header {
   height: auto;
 }
 
-h1 {
-  font-size: 2rem;
+.recommended-course {
+  text-align: center;
+  margin: 30px 0;
+}
+
+.recommended-course h1 {
+  font-size: 1.8rem;
   color: #003366;
+  margin-bottom: 20px;
+}
+
+.recommended-item {
+  display: inline-block;
+  text-align: center;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.recommended-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.recommended-image {
+  max-width: 80%;
+  border-radius: 8px;
+}
+
+.course-grid-title {
+  text-align: center;
+  font-size: 1.8rem;
+  color: #003366;
+  margin-bottom: 20px;
 }
 
 .course-grid {
