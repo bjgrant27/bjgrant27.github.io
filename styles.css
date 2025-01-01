@@ -9,7 +9,6 @@ body {
   line-height: 1.6;
   background-color: #f8f9fa;
   color: #333;
-  padding: 20px;
 }
 
 header {
@@ -112,13 +111,6 @@ header {
 .course-item p {
   font-size: 1rem;
   color: #555;
-}
-
-html,
-body {
-  margin: 10px;
-  padding: 0;
-  box-sizing: border-box;
 }
 
 .announcement-bar {
